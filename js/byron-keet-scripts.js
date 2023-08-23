@@ -5,7 +5,7 @@ jQuery(document).ready(function($) {
             method: 'POST',
             data: {
                 action: 'byron_keet_refresh_miusage_data',
-                nonce: byronKeet.nonce // add nonce here
+                nonce: byronKeet.nonce
             },
             success: function(response) {
                 if (response.success) {
