@@ -1,0 +1,48 @@
+/*!***************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/style.scss ***!
+  \***************************************************************************************************************************************************************************************************************************************/
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+table.wp-block-create-block-byron-keet-block {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  font-family: Arial, sans-serif;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+table.wp-block-create-block-byron-keet-block thead {
+  background-color: #21759b;
+  color: white;
+}
+table.wp-block-create-block-byron-keet-block thead tr th {
+  padding: 12px 15px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+table.wp-block-create-block-byron-keet-block tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+table.wp-block-create-block-byron-keet-block tbody tr:hover {
+  background-color: #f5f5f5;
+}
+table.wp-block-create-block-byron-keet-block tbody tr td {
+  padding: 12px 15px;
+  border-bottom: 1px solid #ddd;
+}
+@media (max-width: 600px) {
+  table.wp-block-create-block-byron-keet-block {
+    display: block;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+  table.wp-block-create-block-byron-keet-block th,
+  table.wp-block-create-block-byron-keet-block td {
+    white-space: nowrap;
+  }
+}
+
+/*# sourceMappingURL=style-index.css.map*/

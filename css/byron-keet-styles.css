@@ -1,0 +1,21 @@
+.widefat {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.widefat th,
+.widefat td {
+    border: 1px solid #ddd;
+    padding: 8px 10px;
+    vertical-align: top;
+    text-align: left;
+}
+
+.widefat th {
+    background-color: #f9f9f9;
+    font-weight: 600;
+}
+
+.widefat tbody tr:nth-child(odd) {
+    background-color: #f9f9f9;
+}
